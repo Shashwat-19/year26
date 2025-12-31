@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-love-red: #ff4d4d;
+  --color-soft-pink: #ffe6e6;
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--color-soft-pink);
+  color: #4a4a4a;
+  overflow-x: hidden;
+}
